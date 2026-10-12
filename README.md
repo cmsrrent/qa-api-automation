@@ -1,5 +1,7 @@
 # QA API Automation Framework
 
+[![API Test Automation](https://github.com/cmsrrent/qa-api-automation/actions/workflows/api-tests.yml/badge.svg?branch=master)](https://github.com/cmsrrent/qa-api-automation/actions/workflows/api-tests.yml)
+
 A modular API test automation showcase project built with **Node.js**, **SuperTest**, and **Jest**, using the public [Restful Booker API](https://restful-booker.herokuapp.com).
 
 This project is architected using the **Service Object Pattern (API Clients)**, **Data Builders / Factories**, **JSON Schema Contract Validation**, and **Automated HTML Reporting**.
