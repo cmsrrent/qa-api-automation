@@ -1,8 +1,8 @@
 # QA API Automation Framework
 
-A robust, modular, production-grade API test automation showcase project built with **Node.js**, **SuperTest**, and **Jest**, targeting the public [Restful Booker API](https://restful-booker.herokuapp.com).
+A modular API test automation showcase project built with **Node.js**, **SuperTest**, and **Jest**, using the public [Restful Booker API](https://restful-booker.herokuapp.com).
 
-This project is architected with QA automation best practices, including the **Service Object Pattern (API Clients)**, **Data Builders / Factories**, **JSON Schema Contract Validation**, and **Automated HTML Reporting**.
+This project is architected using the **Service Object Pattern (API Clients)**, **Data Builders / Factories**, **JSON Schema Contract Validation**, and **Automated HTML Reporting**.
 
 ---
 
