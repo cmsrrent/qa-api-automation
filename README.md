@@ -1,6 +1,9 @@
 # QA API Automation Framework
 
 [![API Test Automation](https://github.com/cmsrrent/qa-api-automation/actions/workflows/api-tests.yml/badge.svg?branch=master)](https://github.com/cmsrrent/qa-api-automation/actions/workflows/api-tests.yml)
+![Node Version](https://img.shields.io/badge/node-%3E%3D18.0.0-339933?logo=node.js&logoColor=white)
+![Jest](https://img.shields.io/badge/tested%20with-jest-C21325?logo=jest&logoColor=white)
+![SuperTest](https://img.shields.io/badge/supertest-v7.1-orange)
 
 A modular API test automation showcase project built with **Node.js**, **SuperTest**, and **Jest**, using the public [Restful Booker API](https://restful-booker.herokuapp.com).
 
