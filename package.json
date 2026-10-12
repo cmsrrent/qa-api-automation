@@ -1,0 +1,36 @@
+{
+  "name": "qa-api-automation",
+  "version": "1.0.0",
+  "description": "API Test Automation Showcase framework using SuperTest, Jest, and Restful Booker API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:health": "jest tests/health",
+    "test:auth": "jest tests/auth",
+    "test:booking": "jest tests/booking",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "qa",
+    "api-testing",
+    "supertest",
+    "jest",
+    "restful-booker",
+    "test-automation",
+    "contract-testing",
+    "json-schema"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^17.2.3",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^4.2.0",
+    "supertest": "^7.1.3"
+  }
+}
