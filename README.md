@@ -1,4 +1,4 @@
-# QA API Automation Showcase Framework
+# QA API Automation Framework
 
 A robust, modular, production-grade API test automation showcase project built with **Node.js**, **SuperTest**, and **Jest**, targeting the public [Restful Booker API](https://restful-booker.herokuapp.com).
 
