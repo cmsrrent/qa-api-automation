@@ -1,7 +1,7 @@
 # QA API Automation Framework
 
 [![API Test Automation](https://github.com/cmsrrent/qa-api-automation/actions/workflows/api-tests.yml/badge.svg?branch=master)](https://github.com/cmsrrent/qa-api-automation/actions/workflows/api-tests.yml)
-![Node Version](https://img.shields.io/badge/node-%3E%3D18.0.0-339933?logo=node.js&logoColor=white)
+![Node Version](https://img.shields.io/badge/node-20.19%2B%20%7C%2022.13%2B-339933?logo=node.js&logoColor=white)
 ![Jest](https://img.shields.io/badge/tested%20with-jest-C21325?logo=jest&logoColor=white)
 ![SuperTest](https://img.shields.io/badge/supertest-v7.1-orange)
 
@@ -82,8 +82,8 @@ qa-api-automation/
 
 ## 🛠️ Prerequisites
 
-- **Node.js**: `v18.x`, `v20.x`, or `v22.x` (tested on Node 22)
-- **npm**: `v9.x` or higher
+- **Node.js**: `v20.19.0+`, `v22.13.0+`, or `v24.0.0+` (CI tests Node 20 and 22)
+- **npm**: `v10.x` or higher
 
 ---
 

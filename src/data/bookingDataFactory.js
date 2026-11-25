@@ -1,4 +1,4 @@
-const { faker } = require('@faker-js/faker');
+const { faker } = require('@faker-js/faker/locale/en');
 
 /**
  * Format a Date object as YYYY-MM-DD for Restful Booker API

@@ -4,6 +4,13 @@ module.exports = {
   testTimeout: 20000,
   maxWorkers: 1, // Sequential execution prevents race conditions against public shared API
   testMatch: ['**/tests/**/*.spec.js'],
+  transform: {
+    '^.+\\.js$': [
+      'babel-jest',
+      { plugins: ['@babel/plugin-transform-modules-commonjs'] },
+    ],
+  },
+  transformIgnorePatterns: ['/node_modules/(?!@faker-js/faker/)'],
   reporters: [
     'default',
     [
